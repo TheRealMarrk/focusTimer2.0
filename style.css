@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hide {
+  display: none; 
+}
+
+main {
+  display: flex;
+  gap: 19.2rem;
+
+  justify-self: center;
+  align-self: center;
+}
+
+.display {
+  display: grid;
+  align-self: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+span {
+  font-weight: 500;
+  font-size: 12.6rem;
+  line-height: 14.8rem;
+  color: #323238;
+}
+
+.controls {
+  display: flex;
+  gap: 3.2rem;
+
+  justify-content: center;
+}
+
+.controls button {
+  border: none;
+  grid-template-rows: auto;
+  background-color: transparent;
+  transition: 0.4s;
+}
+
+.controls button:hover {
+  scale: 1.1;
+}
+
+.sounds {
+  display: grid;
+  gap: 3.2rem;
+  grid-template-columns: 1fr 1fr
+}
+
+.sounds button {
+  width: 13.8rem;
+  height: 15.2rem;
+  padding: 4.8rem 4.2rem 4.3rem;
+  border: none;
+  background: #E1E1E6;
+  border-radius: 2.4rem;
+  transition: 0.4s;
+}
+
+.sounds button:focus{
+  background-color: #02799D;
+}
+
+.sounds button:hover{
+ scale: 1.1; 
+}
+button:focus > svg > path {
+  fill: #FFFFFF;
+}
+
