@@ -15,7 +15,22 @@ body {
 }
 
 .hide {
-  display: none; 
+  display: none;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+header button {
+  position: fixed;
+  background: none;
+  border: none;
+  cursor: pointer;
+  right: 6rem;
+  top: 6rem;
 }
 
 main {
@@ -24,6 +39,32 @@ main {
 
   justify-self: center;
   align-self: center;
+}
+
+.darkMode {
+  background-color: #121214;
+  color: #fff;
+}
+
+.darkMode span {
+  color: #fff;
+}
+
+.darkMode button svg path {
+  fill: #fff;
+}
+
+.darkMode main .sounds button {
+  background: #29292E;
+}
+
+.darkMode .sounds button:focus {
+  background: #0A3442;
+}
+
+.darkMode input,
+.darkMode input::-webkit-slider-thumb {
+  background-color: #fff;
 }
 
 .display {
@@ -69,21 +110,40 @@ span {
 .sounds button {
   width: 13.8rem;
   height: 15.2rem;
-  padding: 4.8rem 4.2rem 4.3rem;
   border: none;
   background: #E1E1E6;
   border-radius: 2.4rem;
   transition: 0.4s;
 }
 
-.sounds button:focus{
+.sounds button:focus {
   background-color: #02799D;
 }
 
-.sounds button:hover{
- scale: 1.1; 
-}
-button:focus > svg > path {
+button:focus>svg>path {
   fill: #FFFFFF;
 }
 
+input {
+  margin-top: 3.2rem;
+  background-color: #323238;
+  appearance: none;
+  border-radius: 1rem;
+  height: .4rem;
+  width: 9rem;
+  -webkit-appearance: none;
+}
+
+input::-webkit-slider-thumb {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #323238;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+button:focus>input,
+button:focus>input::-webkit-slider-thumb {
+  background-color: #fff;
+}
