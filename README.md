@@ -20,7 +20,11 @@ Nesse projeto aprendi a manipular elementos HTML usando JS para fazer com que to
 
 ## Screenshots
 
+Light mode
 ![App Screenshot](https://github.com/TheRealMarrk/focusTimer2.0/blob/master/assets/to_readme/Captura%20de%20Tela%202022-11-18%20às%2011.42.50.png)
+
+Dark mode
+![App Screenshot](https://github.com/TheRealMarrk/focusTimer2.0/blob/master/assets/to_readme/Captura%20de%20Tela%202022-11-18%20a%CC%80s%2018.55.36.png)
 
 ## O projeto em funcionamento 
 
