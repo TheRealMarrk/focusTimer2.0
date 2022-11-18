@@ -22,8 +22,6 @@ Nesse projeto aprendi a manipular elementos HTML usando JS para fazer com que to
 
 ![App Screenshot](https://github.com/TheRealMarrk/focusTimer2.0/blob/master/assets/to_readme/Captura%20de%20Tela%202022-11-18%20às%2011.42.50.png)
 
-<img src="./assets/to_readme/Captura de Tela 2022-11-18 às 11.42.50.png" alt="imagem do timer">
-
 ## O projeto em funcionamento 
 
 **https://therealmarrk.github.io/focusTimer2.0/**
