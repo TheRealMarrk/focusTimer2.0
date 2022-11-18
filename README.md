@@ -17,9 +17,10 @@ Esse projeto foi criado a partir de um desafio da Rocketseat para fazer um timer
 
 Nesse projeto aprendi a manipular elementos HTML usando JS para fazer com que todos os elementos do projeto fossem responsivos, manipulando a DOM e aprendendo sobre callbacks.
 
+
 ## Screenshots
 
-![App Screenshot]
+![App Screenshot](https://github.com/TheRealMarrk/focusTimer2.0/blob/master/assets/to_readme/Captura%20de%20Tela%202022-11-18%20às%2011.42.50.png)
 
 <img src="./assets/to_readme/Captura de Tela 2022-11-18 às 11.42.50.png" alt="imagem do timer">
 
